@@ -1,9 +1,9 @@
 === Advanced Forms for ACF ===
 Contributors: philkurth, fabianlindfors
 Tags: acf, advanced custom fields, form, acf form, contact form
-Stable tag: 1.9.3.6
+Stable tag: 1.9.3.7
 Requires at least: 5.4.0
-Tested up to: 6.6
+Tested up to: 6.9
 Requires PHP: 7.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -68,9 +68,17 @@ Yes. Versions 5.6 or lower of ACF are not supported.
 
 == Changelog ==
 
+= 1.9.3.7 =
+
+* Added copy-to-clipboard button for the shortcode field on the form edit screen.
+
+*Pro*
+
+* Fixed issue where HTML in integration field labels was escaped by ACF 6.7+.
+
 = 1.9.3.6 =
 
-* Fixed bug preventing taxonomy terms from loading in field's conditinal logic settings.
+* Fixed bug preventing taxonomy terms from loading in field's conditional logic settings.
 
 = 1.9.3.5 =
 
